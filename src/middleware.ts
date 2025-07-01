@@ -28,6 +28,7 @@ export default withAuth(
 
     pages: {
       signIn: "/auth/login",
+      error: "/access-denied",
     },
   }
 );
